@@ -58,3 +58,7 @@ function animateButton(key) {
     activeButton.classList.remove('pressed');
   }, 150);
 }
+
+// Atualiza automaticamente o ano do footer
+const currentYear = new Date().getFullYear();
+document.getElementById('year').textContent = currentYear;
